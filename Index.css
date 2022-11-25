@@ -1,10 +1,52 @@
-div {
-    background-color: #019be5;
-}
 .fuente{
     font-family: 'Cormorant Garamond', serif;
     font-size:30px;
 }
+.parrafos{
+    font-family: 'Roboto';
+}
+.ejemplo-boton{
+    color: #ffff8d;
+}
+.encabezado{
+    background-color: #019be5;
+}
 body{
     text-align:center;
+    color: white;
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20190827/pngtree-luxury-black-background-design-with-golden-design-image_307129.jpg");
+    background-size: cover;
+    
 }
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  -webkit-transform: translateY(-0.25em);
+          transform: translateY(-0.25em);
+}
+.raise {
+    --color: #019be5;
+    --hover: #ffff8d;
+  }
+  button {
+    color: var(--color);
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+  }
+  button:hover, button:focus {
+    border-color: var(--hover);
+    color: white;
+  }
+  button {
+    background: none;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    padding: 1em 2em;
+  }
+  .primerdiv{
+    margin-left: 20%;
+    margin-right: 20%;
+
+
+  }
