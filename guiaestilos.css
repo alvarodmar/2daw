@@ -1,0 +1,18 @@
+.fuente{
+    font-family: 'Cormorant Garamond', serif;
+    font-size:30px;
+}
+.parrafos{
+    font-family: 'Roboto';
+}
+.ejemplo-boton{
+    background-color: #ffff8d;
+    margin: 0.5em;
+    padding: 1em 2em;
+}
+.encabezado{
+    background-color: #019be5;
+}
+body{
+    text-align:center;
+}
