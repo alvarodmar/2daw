@@ -39,14 +39,15 @@ body{
   }
   button {
     background: none;
-    border: 2px solid;
+    border: 1px solid;
     font: inherit;
     line-height: 1;
     padding: 1em 2em;
+    width: 17%;
   }
   .primerdiv{
     margin-left: 20%;
-    margin-right: 20%;
+    margin-right: 18%;
 
 
   }
